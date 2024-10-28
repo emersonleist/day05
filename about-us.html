@@ -52,6 +52,18 @@
 						<span class="number">1</span>
 						Your basic info
 					</legend>
+
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="user-name">
+
+					<label for="mail">Email:</label>
+					<input type="email" name="user-email" id="mail">
+
+					<label for="paswword">Password</label>
+					<input type="password" name="user-password" id="password">
+
+					<label for="bio">Biography</label>
+					<textarea name="user-bio" id="bio"></textarea>
 				</fieldset>
 
 				<fieldset>
@@ -59,6 +71,16 @@
 						<span class="number">2</span>
 						Work details
 					</legend>
+
+					<label>Perferred Work Setup</label>
+
+					<input type="radio" name="work-setup" id="hybrid" value="hybrid">
+					<label for="hybrid" class="light">Hybrid</label>
+
+					<input type="radio" name="work-setup" id="remote" value="remote">
+					<label for="remote" class="light">Remote</label>
+
+					<input type="submit" value="Submit">
 				</fieldset>
 			</form>
 		</main>
